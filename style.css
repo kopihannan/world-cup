@@ -1,7 +1,7 @@
 /* google font  */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Great+Vibes&family=Inter:wght@400;500;600;700&family=Montserrat:wght@500&family=Open+Sans:wght@500&family=Oswald&family=Pacifico&family=Poppins:wght@500&family=Roboto+Slab:wght@500;600;700&family=Varela+Round&family=Work+Sans:wght@400;600;700;800;900&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap');
 
-/* body */
+/* -----------------------body-------------------- */
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@
     scroll-behavior: smooth;
 }
 
-    /* first section css style  */
+    /* ----------------first section css style ------------------- */
 .first-section{
     margin-top: 2rem;
     margin-left: 2rem;
@@ -74,7 +74,7 @@ button {
     right: 10px;
     background-color: #16a085;
   }
-        /* first section css style  */
+ /*---------------------- first section css style ----------------- */
 
 .second-section{
     margin-bottom: 4rem;
@@ -149,18 +149,20 @@ a.blog-button:hover {
     margin-left: 3rem;
 }
 
- /* grid- list style  */
-
+ /* -------------------------second section---grid- list style-----  */
+.second-section{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
 .grid-item{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 50px;
-    column-gap: 25px;
+    column-gap: 30px;
 }
 .grid-list {
-    width: 280px;
-    border-radius: 11px;
+    border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .grid-list img{
