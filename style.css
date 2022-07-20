@@ -186,7 +186,9 @@ a.blog-button:hover {
     font-size: 13px;
 }
 
-    /* view all section  */
+    /* ---------------view all section-----------------  */
+
+
 .view-all-section{
     visibility: hidden;
 }
@@ -213,7 +215,7 @@ a.blog-button:hover {
     font-weight: 600;
     font-size: 13px;
 }
-    /* footer section  */
+    /* -----------------footer section---------------  */
 
 .footer-section{
     text-align: center;
@@ -283,9 +285,9 @@ img.flag {
 
 
 
-    /* end desktop  mode css   */
+    /* ----------------------end desktop  mode css  --------------- */
 
-/* tablet device */
+/*-------------- tablet device ------------------*/
 
 
 
@@ -310,7 +312,7 @@ img.flag {
     }
 }
 
-/* mobile - device */
+/*------------- mobile - device -----------------------*/
 
 @media screen and (max-width:768px) {
     .section-content{
